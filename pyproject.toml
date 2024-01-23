@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pw-hw-7"
+version = "0.1.0"
+description = ""
+authors = ["Weiss1985 <weiss1985@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.9"
+Faker = "^22.5.0"
+SQLAlchemy = "^2.0.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
